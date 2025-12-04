@@ -11,7 +11,7 @@ const navLinks = [
 ];
 
 export function Navigation() {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [,setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {

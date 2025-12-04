@@ -53,13 +53,13 @@ export function SolutionSection() {
 
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
+          {features.map((feature) => (
             <div
               key={feature.title}
               className="group relative p-8 rounded-3xl bg-card border border-border/50 hover:border-accent/30 transition-all duration-300 hover:shadow-xl"
             >
               {/* Icon */}
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-accent/20 to-teal/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-16 h-16 rounded-2xl from-accent/20 to-teal/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <feature.icon className="w-8 h-8 text-accent" />
               </div>
 
@@ -80,7 +80,7 @@ export function SolutionSection() {
         </div>
 
         {/* Objectives Banner */}
-        <div className="mt-20 grid md:grid-cols-3 gap-8 p-8 md:p-12 rounded-3xl bg-gradient-to-br from-primary to-primary/90">
+        <div className="mt-20 grid md:grid-cols-3 gap-8 p-8 md:p-12 rounded-3xl from-primary to-primary/90">
           <div className="text-center md:text-left">
             <h3 className="font-display text-2xl font-bold text-primary-foreground mb-3">
               Our Mission

@@ -46,7 +46,7 @@ export function GallerySection() {
 
         {/* Gallery Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {galleryItems.map((item, index) => (
+          {galleryItems.map((item) => (
             <div
               key={item.title}
               className="gallery-item group relative aspect-[3/4] bg-muted"
@@ -58,7 +58,7 @@ export function GallerySection() {
                 loading="lazy"
               />
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0  from-foreground/80 via-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <span className="text-primary-foreground/70 text-sm font-medium uppercase tracking-wider">
                     {item.category}
