@@ -1,0 +1,37 @@
+@import "tailwindcss/theme" reference;
+
+/* This registers ALL your CSS variables as Tailwind v4 theme tokens */
+:root {
+  --background: 35 45% 97%;
+  --foreground: 25 30% 12%;
+
+  --card: 35 40% 95%;
+  --card-foreground: 25 30% 12%;
+
+  --popover: 35 45% 97%;
+  --popover-foreground: 25 30% 12%;
+
+  --primary: 25 55% 20%;
+  --primary-foreground: 35 45% 97%;
+
+  --secondary: 35 50% 92%;
+  --secondary-foreground: 25 30% 12%;
+
+  --muted: 30 30% 90%;
+  --muted-foreground: 25 20% 45%;
+
+  --accent: 18 70% 45%;
+  --accent-foreground: 35 45% 97%;
+
+  --teal: 175 65% 40%;
+  --teal-foreground: 35 45% 97%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 30 25% 85%;
+  --input: 30 25% 85%;
+  --ring: 25 55% 20%;
+
+  --radius: 0.75rem;
+}
