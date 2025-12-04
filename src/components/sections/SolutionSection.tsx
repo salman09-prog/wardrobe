@@ -80,7 +80,7 @@ export function SolutionSection() {
         </div>
 
         {/* Objectives Banner */}
-        <div className="mt-20 grid md:grid-cols-3 gap-8 p-8 md:p-12 rounded-3xl from-primary to-primary/90">
+        <div className="mt-20 grid md:grid-cols-3 gap-8 p-8 md:p-12 rounded-3xl bg-gradient-to-r from-primary to-primary/90">
           <div className="text-center md:text-left">
             <h3 className="font-display text-2xl font-bold text-primary-foreground mb-3">
               Our Mission
